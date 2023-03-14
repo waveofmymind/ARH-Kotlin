@@ -1,6 +1,6 @@
-package com.wave.arh.domain.review
+package com.wave.arh.domain.review.domain
 
-import Problem
+import com.wave.arh.domain.problem.domain.Problem
 import jakarta.persistence.*
 import lombok.AccessLevel
 import lombok.AllArgsConstructor
@@ -26,6 +26,6 @@ class Review (
     var content : String,
 
 
-) {
+    ) {
 
 }

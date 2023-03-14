@@ -1,4 +1,4 @@
-package com.wave.arh.domain.problem
+package com.wave.arh.domain.problem.domain
 
 import jakarta.persistence.*
 import lombok.AccessLevel

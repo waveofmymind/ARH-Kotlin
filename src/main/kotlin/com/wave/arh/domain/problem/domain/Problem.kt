@@ -1,5 +1,7 @@
+package com.wave.arh.domain.problem.domain
+
 import com.wave.arh.domain.BaseEntity
-import com.wave.arh.domain.review.Review
+import com.wave.arh.domain.review.domain.Review
 import jakarta.persistence.*
 import lombok.AccessLevel
 import lombok.AllArgsConstructor
@@ -15,7 +17,7 @@ class Problem(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "problem_id")
-    val id: Long? = null,
+    val id: Long,
 //    @ManyToOne
 //    @JoinColumn(name = "member_id", updatable = false)
 //    var writer: Member? = null,
