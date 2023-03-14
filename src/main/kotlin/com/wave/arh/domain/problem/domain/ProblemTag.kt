@@ -3,7 +3,7 @@ package com.wave.arh.domain.problem.domain
 import jakarta.persistence.*
 import lombok.Getter
 import lombok.NoArgsConstructor
-import javax.swing.text.html.HTML.Tag
+
 
 @Getter
 @Entity
